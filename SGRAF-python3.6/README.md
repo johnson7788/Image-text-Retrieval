@@ -47,7 +47,7 @@ or
 ***------>**  ```for line in open(loc+'%s_caps.txt' % data_split, 'r', encoding='utf-8'):```*  
 ***------>**  ```tokens = nltk.tokenize.word_tokenize(str(caption).lower())```*
 
-## Download data and vocab
+## 下载数据和单词表
 We follow [SCAN](https://github.com/kuanghuei/SCAN) to obtain image features and vocabularies, which can be downloaded by using:
 
 ```bash
@@ -60,7 +60,7 @@ Another download link is available below：
 https://drive.google.com/drive/u/0/folders/1os1Kr7HeTbh8FajBNegW8rjJf6GIhFqC
 ```
 
-## Pre-trained models and evaluation
+## 预训练模型和评估
 Modify the **model_path**, **data_path**, **vocab_path** in the `evaluation.py` file. Then run `evaluation.py`:
 
 ```bash

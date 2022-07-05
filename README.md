@@ -5,11 +5,11 @@ This repo contians the codes for our SIGIR 2022 paper "[Where Does the Performan
 > Where Does the Performance Improvement Come From - A Reproducibility Concern about Image-Text Retrieval  
 > Jun Rao, Fei Wang, Liang Ding, Shuhan Qi, Yibing Zhan, Weifeng Liu, Dacheng Tao  
 
-We change all sub-project code to fit torch1.8.0 and CUDA11 and add random seed for them.  
+我们改变了所有子项目的代码，以适应torch1.8.0和CUDA11，并为其添加了随机种子。
 
 # Statement
-In the research, we found that the image-text retrieval community need a unified project for a funture research. We will publish a version after June 2022. This project is temporary without detail.
- 
+在研究中，我们发现图像-文本检索界需要一个统一的项目来进行未来的研究。我们将在2022年6月之后发布一个版本。这个项目是暂时的，没有详细说明。
+
 # License
 The license is CC-BY-NC 4.0.
 
